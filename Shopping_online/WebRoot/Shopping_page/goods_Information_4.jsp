@@ -70,8 +70,9 @@ margin-top:-5px;
   </div>
   
   <div class="Information_center_right_goodsprice">
-  <h4><%=Information_pear.getsprice() %></h4>
+  <h4><%=Information_pear.getsprice() %><%=Information_pear.getsdanwei() %></h4>
   </div>
+  
   
   <div class="Information_center_right_information">
   <h4><%=Information_pear.getsinformation() %></h4>

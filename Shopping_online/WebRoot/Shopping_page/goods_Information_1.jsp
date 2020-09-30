@@ -71,7 +71,7 @@ margin-top:-600px;
   <h3><%=Information.getstype() %></h3>
   
   <div class="Information_center_right_goodsname">
-  <h4><%=Information.getsgoodname() %></h4>
+  <h4><%=Information.getsgoodname() %><%=Information.getsdanwei() %></h4>
   </div>
   
   <div class="Information_center_right_goodsprice">

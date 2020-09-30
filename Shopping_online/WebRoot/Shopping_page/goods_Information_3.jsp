@@ -69,7 +69,7 @@ margin-top:-5px;
   </div>
   
   <div class="Information_center_right_goodsprice">
-  <h4><%=Information_jacket.getsprice() %></h4>
+  <h4><%=Information_jacket.getsprice() %><%=Information_jacket.getsdanwei() %></h4>
   </div>
   
   <div class="Information_center_right_information">
